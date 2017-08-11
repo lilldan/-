@@ -1,0 +1,43 @@
+
+	.box{
+		background: #f2f2f2
+	}
+	
+	.swiper-pagination-switch{
+		background: red
+	}
+	.box1{
+		width: 100%;
+		height: 4.4rem;
+	}
+	.box1 img{
+		max-width: 100% !important;
+	    height: auto;
+	    vertical-align: top;
+	    display: block
+}
+.box1 a{
+	opacity: 0
+}
+.box2 img{
+	width: 1.32rem;height: 0.96rem;position: fixed;right: 0.2rem;bottom: 1rem;opacity: 1;z-index: 999
+}
+.box3 img{
+	width: 100%;display: block
+}
+.box4 img{
+	width: 100%;display: block
+}
+
+.box5 img{
+	width: 100%;display: block;
+}
+.box6 img{
+	width: 100%;display: block
+}
+.box7 img{
+	width: 100%;display: block
+}
+.box8 img{
+	width: 100%;display: block
+}

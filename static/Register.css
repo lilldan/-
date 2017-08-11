@@ -1,0 +1,47 @@
+.RgsTop{
+    width: 100%;height:0.9rem ;border-bottom: 1px solid #EAEAEA;
+    display: flex;justify-content: space-around;background: #eeeeee
+  }
+  .RgsTop a{line-height: 0.4rem;color:black;}
+  .RgsTop a i{
+    font-size:0.54rem;
+  }
+  .Rgs .RgsST{
+    width: 100%;height: 6.5rem;
+  }
+  .Rgs .RgsST input{
+    width: 90%;height: 1rem;margin: 0 auto;display: block;border: none;
+    font-size: 0.32rem;
+  }
+  .STYZ{
+    display: flex;width: 90%;margin: 0 auto;border-bottom: 1px solid #e2e2e2 ;
+  }
+  .STYZ img{width:2.6rem;height: 1rem;border-left:1px solid #e2e2e2;}
+ ::-webkit-input-placeholder {
+    color: #cdbfbf;
+  }
+ .err-tips {
+    margin: 0.4rem;
+    font-size: 13px;
+    color: #848689;
+}
+.RgsZC{
+    width:6.9rem;height:0.8rem ;margin: 0 auto;background:  #e2e2e2;font-size: 0.34rem;text-align: center;
+    line-height: 0.8rem;color: #bdbdbd;border-radius: 5px
+}
+.Rgsphone{
+  display: flex;width: 90%;margin: 0 auto;border-bottom: 1px solid #e2e2e2 ;
+}
+.Rgsphone p{
+  font-size: 0.28rem;width: 4rem;height: 0.68rem;line-height: 0.68rem;background: #e2e2e2;text-align: center;
+  margin-top: 0.2rem;border-radius: 5px;color:#848689;
+}
+.RgsYJ{
+  display: flex;width: 90%;margin: 0 auto;border-bottom: 1px solid #e2e2e2 ;
+}
+.RgsYJ i{
+  font-size: 0.8rem;margin-right: 0.5rem;line-height: 1rem;color: #c2c2c2;
+}
+.hot{
+  color: #e30265 !important;
+}

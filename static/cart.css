@@ -1,0 +1,78 @@
+.ccf1{
+  width: 100%;height: 20rem;
+}
+.cart{
+  background: #f3f3f3
+}
+  .ccf{
+    width: 100%;height: 0.84rem;font-size: 0.32rem;text-align: center;line-height: 0.84rem;margin-top: 0.5rem;background: white;
+  }
+  .ccf i{color:red;}
+  .cartTop{
+   margin: 0 auto; width: 95%;height: 0.9rem;position: fixed;top: 0;background: white;display: flex;line-height: 0.9rem;
+    justify-content: space-between;
+  }
+  .cartTop i{
+    display: flex;flex-direction: column;
+  }
+   .cartTop i p{
+    line-height: 0.15rem;font-size: 1rem;color:#b3b3b3 ;
+   }
+   .cartTop a{
+    font-size: 0.62rem;color: black;
+   }
+  .cartFoot{
+    width: 100%;height: 0.96rem;position: fixed;bottom: 0;background: black
+  }
+  .cartXQ1{
+    width: 100%;border-bottom: 1px solid #d9d9d9;
+  }
+  .cartx1{
+    width: 100%;height: 0.88rem;margin-top: 0.9rem;border-bottom: 1px solid #d9d9d9;
+   
+  }
+  .cartx1 i{
+   border-radius: 50%;border: 1px solid #d9d9d9;font-size: 0.48rem;width: 0.48rem;height: 0.48rem;
+   margin-top: .2rem;float: left;margin-left: 0.2rem
+
+ 
+  }
+   .cartx1 b,p{
+    font-size: 0.32rem; line-height: 0.88rem;float: left;
+   }
+  .cartx1 p{
+  margin-left:4rem
+  }
+  .cartx1 b{
+     margin-left:0.3rem
+  }
+  .cartx2{
+    font-size: 0.32rem;width: 90%;height:0.8rem;line-height: 0.8rem;display: flex;justify-content: space-between;border-bottom: 1px solid #d9d9d9;margin: 0 auto;
+  }
+  .cartx2 p{
+    color: #d9d9d9;
+  }
+  .cartx3{
+    width: 95%;height: 2.5rem;margin: 0 auto;display: flex;border-bottom: 1px solid #d9d9d9;
+  }
+  .cartx3 i{
+    border-radius: 50%;border: 1px solid #d9d9d9;font-size: 0.48rem;width: 0.48rem;height: 0.48rem;
+    margin-top: 1rem;
+  }
+  .car31{
+    border: 1px solid ;width: 1.4rem;height: 1.9rem;margin-top: 0.25rem;
+  }
+  .car31 img{width: 100%;height:100%;}
+  .car32{
+    font-size: 0.2rem;width: 3rem;display: flex;flex-wrap: wrap;margin-top: 0.3rem;
+  }
+.car32 p{
+  font-size: 0.2rem;line-height: 0.35rem
+}
+.car33{
+    font-size: 0.32rem;margin-top: 0.3rem;color: red;
+}
+.cartx4{
+  width: 90%;height: 0.88rem;margin: 0 auto;font-size: 0.42rem;line-height: 0.88rem;
+  color: red;
+}

@@ -1,0 +1,91 @@
+.det .swiper-wrapper{
+   width: 100%;height: 10rem;
+}
+.det .swiper-wrapper img{
+      width: 100%;height: 10rem;
+}
+.det .detfoot{
+  width: 100%;height: 1.2rem;border-top: 1px solid #b0b0b0;position: fixed;bottom: 0;background:#f4f4f4;display: flex;
+}
+
+.det .detjug{
+  width: 100%;height: 1.06rem;font-size: 0.42rem;color: red;
+  margin-top: -1rem;position: relative;z-index: 999;background: #fcfcfc;opacity: 0.5;
+}
+.det .detjug span{line-height: 1.06rem}
+.swiper-pagination{
+  width: 0.8rem;height: 0.8rem;border-radius:50%;text-align: center;line-height: 0.8rem;
+  color:white;background:#d1d1d2;font-size: 0.32rem;color: red;margin-left: 6.5rem;
+}
+.det .detjug1{
+   width: 100%;height: 1.06rem;display: flex;justify-content: space-between;width: 90%;margin: 0 auto;
+}
+.det .detjug1 .detjugfont{
+  font-size: 0.24rem;width: 5.6rem
+}
+.det .dj2{
+  font-size: 0.24rem;color:#dd2726;width: 90%;margin: 0 auto;
+}
+.det .dj3{
+  width: 95%;height: 1.2rem;font-size: 0.24rem;display: flex;margin: 0 auto;flex-wrap: wrap;
+}
+.det .dj3 b{
+  width:3rem;height: 0.48rem; margin-left: 0.5rem;color:#c9c9c9;
+}
+.det .detfoot .detft1{
+  width: 2.24rem;height: 1.2rem;display: flex;justify-content: space-around
+}
+.det .detfoot .detft1 span{
+  font-size: 0.32rem;display: flex;flex-direction: column ;width: 0.96rem;text-align: center;line-height:0.4rem; padding-top: 0.2rem;color: #b0b0b0
+}
+.det .detfoot .dft2,.dft3{
+  width: 2.63rem;height: 1.2rem;font-size: 0.32rem;text-align: center;line-height: 1.2rem;color: white;
+}
+.det .detfoot .dft2{
+  background: #E04645
+}
+.det .detfoot .dft3{
+  background: black
+}
+.dt2{
+  width: 100%;height: 1.6rem;background: white;display: flex;font-size: 0.3rem;line-height: 1.6rem;
+  justify-content: space-around;
+}
+.dt2 input{
+  width: 0.5rem;height: 0.5rem;border: none;border-left: 1px solid #dedede;border-right: 1px solid #dedede;text-align: center;background: #eee
+}
+.dt2 .gg2{
+  width: 1.5rem;display: flex;margin-top: 0.5rem;height: 0.5rem;border-radius: 5px;
+
+}
+.dt2 .gg2 div{
+    height: 0.5rem;font-size: 0.5rem;line-height: 0.5rem;width: 0.5rem;text-align: center;line-height: 0.5rem;background: #eee
+}
+.dt1{
+  width: 100%;height: 3rem;font-size: 0.2rem
+}
+.dt1 div{
+  width: 100%;height: 1.4rem;border-bottom: 1px solid #e3e3e5;display: flex;flex-direction: column;
+  justify-content: space-around;padding-left: 0.5rem;
+}
+.dt1 div p{
+  width: 100%;height: 0.4rem;font-size: 0.2rem;padding-left: 0.2rem;
+}
+.dt1 div ul{
+  display: flex
+}
+.dt1 div li{
+  width:  2rem;height: 0.6rem;border-radius: 5px;background: #E04645;text-align: center;
+  line-height: 0.6rem;margin-left: 0.1rem;font-size: 12px
+}
+.detfoot2{
+  width: 100%;height:1.2rem ;position: fixed;bottom: 0;
+  background: #E04645;font-size: 0.33rem;text-align: center;line-height: 1.2rem;color: white;
+  z-index: 9999;
+}
+.detfoot3{
+  width: 100%;height: 7.2rem;position: fixed;bottom: 1.2rem;background: white;z-index: 9999;
+}
+.cartx3{
+  padding-left: 0.5rem;
+}

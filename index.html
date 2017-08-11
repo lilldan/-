@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 50px;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <script>
+         (function (doc, win) {
+              var docEl = doc.documentElement,
+             // orientationchange 事件 用来监听手机屏幕的反转
+              resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+              recalc = function () {
+                var clientWidth = docEl.clientWidth;//(window.innerWidth);UC 或者QQ 安卓4.0 以下原生浏览器下面是没有
+                if (!clientWidth) return;     
+                 docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+              };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            //DOMContentLoaded dom 加载完成，onload 有什么区别 dom css js OK 才执行的
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+          })(document, window);
+    </script>
+    <title>vue</title>
+    <link rel="stylesheet" type="text/css" href="/static/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/font_hp7556wmi80bpgb9/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="static/font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="static/swiper/swiper-3.4.2.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css.css">
+    <link rel="stylesheet" type="text/css" href="static/font-login/iconfont.css">
+     <link rel="stylesheet" type="text/css" href="static/font_log/iconfont.css">
+     <link rel="stylesheet" type="text/css" href="static/login.css">
+     <link rel="stylesheet" type="text/css" href="static/font_rg/iconfont.css">
+     <link rel="stylesheet" type="text/css" href="static/Register.css">
+     <link rel="stylesheet" type="text/css" href="static/font_cart/iconfont.css">
+     <link rel="stylesheet" type="text/css" href="static/cart.css">
+     <link rel="stylesheet" type="text/css" href="static/det.css">
+   <style type="text/css" media="screen">
+   	 a {text-decoration: none} 
+   </style>
+   <script src="static/iscroll-probe.js"></script>
+   <script src="https://unpkg.com/jquery@3.2.1"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+
+  </body>
+  <script src="static/swiper/swiper-3.4.2.min.js"></script>
+
+
+</html>

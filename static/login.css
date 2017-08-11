@@ -1,0 +1,62 @@
+.login{
+    background: #eeeeee;width: 100%
+  }
+  .login .loginTop{
+    font-size: 0.36rem;
+    width: 100%;height:0.88rem ;
+    background: white
+  }
+  .login .loginTop b{
+    float: left;line-height: 0.88rem;font-size: 0.5rem;color: black;
+  }
+  .login .loginTop p{
+    margin-left:3.4rem;line-height: 0.88rem
+  }
+  .login input{
+    width: 100%;border: 0;display: block;border-top: 2px solid #eeeeee;height: 0.88rem;font-size:0.3rem 
+  }
+  .login .loginInput{
+    margin-top: 0.5rem;border: 1px solid #d9d2d2;
+  }
+   .login .loginInput div{
+    display: flex
+   }
+  .login .loginInput i{
+      line-height: 0.88rem;font-size: 0.5rem;background: white;width: 1rem;text-align: center;border-top: 2px solid #eeeeee;
+     }
+  .login .loginInput p{
+    width: 0.8rem;background: white;text-align: center;line-height: 0.88rem;font-size: 0.5rem;color: #eeeeee;border-top: 2px solid #eeeeee;
+  }
+  .login .loginInput span img{
+    width: 2rem;height: 0.88rem;
+  }
+  .login .loginInput span{
+    width: 2rem;height: 0.88rem;display: flex;background: white;border-top: 1px solid #eeeeee;
+    border-left: 3px solid #eeeeee;line-height: 0.72rem
+  }
+  .yj{
+    color: red;
+  }
+  .loginFoot{
+    width:6.74rem;height: 0.9rem; font-size: .32rem;background: #bdbdbd;color: white;margin: 0 auto;
+    text-align: center;line-height: 0.9rem;margin-top:0.4rem ;border-radius: 4px;background: #dd2726
+  }
+  .loginFoot1{
+    width: 100%;height: 6rem;
+  }
+  .loginFoot1 .loginfont{
+    font-size: 0.28rem;display: flex;justify-content: space-around;padding-top: 0.5rem;  color: red;
+  }
+  .logincp{
+    width: 90%;border: 1px solid #818181;margin:2rem auto;height: 0.001rem;
+  }
+   .loginFoot1 p{
+      font-size: 0.28rem;position: absolute;top: 8.2rem;height: 0.28rem;background:#eeeeee;left: 2.5rem;
+      color: #818181;
+   }
+   .loginFoot1 .loginQQ{
+    position: absolute;top: 9.5rem;left: 2.15rem;
+   }
+   .loginFoot1 .loginQQ img{
+        width: 1.28rem;height: 1.28rem;
+   }
